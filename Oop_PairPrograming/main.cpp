@@ -175,7 +175,7 @@ public:
     BeverageSize getSize() {
         return beverage->getSize();
     }
-
+     
     double cost() {
         if (beverage->getSize() == TALL) {
             return .5 + beverage->cost();
